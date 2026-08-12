@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>Zid Product Video</title>
+
+    <style>
+      body {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        font-family: system-ui, sans-serif;
+      }
+
+      zid-product-video {
+        --zid-video-height: 450px;
+        --zid-video-radius: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Zid Product Video</h1>
+
+    <zid-product-video
+      url="https://youtu.be/dQw4w9WgXcQ"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload-distance="500px"
+    ></zid-product-video>
+    <div style="height: 500px"></div>
+    <zid-product-video
+      url="https://www.youtube.com/watch?v=R9I85RhI7Cg"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload-distance="500px"
+    ></zid-product-video>
+    <script
+      type="module"
+      src="/src/index.ts"
+    ></script>
+  </body>
+</html>
