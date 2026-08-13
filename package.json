@@ -1,6 +1,6 @@
 {
   "name": "zid-product-video",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "A lightweight, dependency-free YouTube Web Component for Zid themes and e-commerce product pages.",
   "type": "module",
   "main": "./dist/index.js",

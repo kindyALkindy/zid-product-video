@@ -35,13 +35,13 @@ import "zid-product-video";
 After publishing the package to npm:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/zid-product-video/dist/index.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/zid-product-video/dist/index.js"></script>
 ```
 
 You can also pin a version:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/zid-product-video@1.0.0/dist/index.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/zid-product-video@1.0.0/dist/index.js"></script>
 ```
 
 ## Basic usage
@@ -249,7 +249,7 @@ This project follows Semantic Versioning.
 For production, pin a specific version:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/zid-product-video@1.0.0/dist/index.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/zid-product-video@1.0.0/dist/index.js"></script>
 ```
 
 ## License
