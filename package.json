@@ -42,7 +42,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kindyALkindy/zid-product-video.git"
+    "url": "git+https://github.com/kindyALkindy/zid-product-video.git"
   },
   "bugs": {
     "url": "https://github.com/kindyALkindy/zid-product-video/issues"
